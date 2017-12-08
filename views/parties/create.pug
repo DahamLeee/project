@@ -1,0 +1,72 @@
+extends ../layout
+
+block hero-unit
+  
+block content
+  .event-content
+    .container
+      form.form-create(action="/parties", method="POST")
+        include _form
+        button.btn.btn-outline-primary(type="submit") Save Your Event          
+
+block category
+  
+block footer
+  .global-footer
+    .container
+      .grid
+        .footer-group.footer-corps        
+          .row
+            ul.footer-links.col-sm-12.col-md-8.col-lg-9.large-hide
+              li.hide-large
+                a.text-body-small.hide-large(href="#") How It Works
+              li.hide-large
+                a.text-body-small.hide-large(href="#") Pricing
+              li.hide-large
+                a.text-body-small.hide-large(href="#") Contact Support
+              li.hide-large
+                a.text-body-small.hide-large(href="#") Contact Sales
+              li
+                a.text-body-small(href="#") About
+              li
+                a.text-body-small(href="#") Blog
+              li
+                a.text-body-small(href="#") Help
+              li
+                a.text-body-small(href="#") Careers
+              li
+                a.text-body-small(href="#") Press
+              li
+                a.text-body-small(href="#") Security
+              li
+                a.text-body-small(href="#") Developers
+              li
+                a.text-body-small(href="#") Terms  
+              li
+                a.text-body-small(href="#") Privacy
+              li
+                a.text-body-small(href="#") Cookies
+                
+            .dropdown.region-selector.col-sm-12.col-md-4.col-lg-2
+              .form-group
+                select.form-control(name="region")
+                  option(selected="selected") United States
+                  option(value="") Argentina
+                  option(value="") Australia
+                  option(value="") Brasil
+                  option(value="") Canada(EN)
+                  option(value="") Canada(FR)
+                  option(value="") Deutschland
+                  option(value="") Espana
+                  option(value="") France
+                  option(value="") Hong Kong
+                  option(value="") Ireland
+                  option(value="") Italia
+                  option(value="") Nederland
+                  option(value="") New Zealand
+                  option(value="") Portugal
+                  option(value="") Singapore
+                  option(value="") United Kingdom
+                  option(value="") United States
+        .text-border
+          .text-copyright @2017 DahamLeee

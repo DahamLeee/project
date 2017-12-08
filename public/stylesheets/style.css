@@ -1,0 +1,316 @@
+body{
+  font-family: "Benton Sans,Benton Sans,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif"
+}
+.row{
+  margin-top: 3em;
+}
+
+.btn-mine{
+  background-color: #F86820;
+  border-color: #F86820;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.register:hover{
+  color: #fff;
+}
+/*navbar*/
+.navbar > .nav-header > .navbar-brand{
+  font-size: 1.5rem;
+  color: #f6682f;
+  font-weight: bold;
+}
+
+#createEvent{
+  color: #0093D7;
+}
+
+.nav-item{
+  padding-left: 5px;
+  padding-right : 5px;
+}
+
+ul li:hover .dropdown-menu{
+  display: block;
+}
+
+/*Search Bar*/
+.search-event{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -140px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.search-event > div.card-body{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 25px;
+}
+
+.search-event > div.card-body > h3.card-title{
+  font-weight: 200;
+  color: #F86820;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-size: 45px;
+}
+
+.search-event > div.card-body > .container{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+.col-info, .col-loc, .select-box, .col-btn{
+  height: 40px;
+  border-radius: 4px;
+  border: 0.4px solid rgb(194, 194, 194);
+}
+
+.col-btn{
+  background-color: #F86820;
+  color: #fff;
+  width: 150px;
+}
+
+/*category*/
+.category{
+  margin-bottom: 15px;
+}
+.section-header{
+  text-align: center;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #666a73;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+}
+.group{
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.background-image{
+  height: 220px;
+  width: 100%;
+  overflow: hidden;
+}
+.category-card__label{
+  color: white;
+  font-weight: 600;
+}
+/*category hover*/
+figure.effect-lily p {
+	color: rgba(255,255,255, 0.9);
+	opacity: 0;
+	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+	transition: opacity 0.2s, transform 0.35s;
+}
+
+figure.effect-lily:hover img,
+figure.effect-lily:hover p {
+	opacity: 1;
+}
+
+
+/*footer*/
+.global-footer{
+  color: #666A73;
+  position: relative;
+  border-top: #666A73 solid 6px;
+  background: #282C35;
+}
+.grid{
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.medium-hide{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.small-hide > li{
+  text-align: left;
+}
+.footer-group{
+  margin: 0;
+  width: 100%;
+}
+.footer-links{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.footer-links > a{
+  color: #D2D6DF;
+}
+.footer-links > li > a, .footer-links > li > i > a{
+  color: #D2D6DF;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.footer-links > li{
+  color: #D2D6DF;
+  padding: 0;
+  line-height: 1.9;
+  padding-right: 20px;
+  list-style-type: none;
+}
+.footer-section__border{
+  border-top : 1px solid #363A43;
+}
+.country > li{
+  display: inline;
+}
+.text-body-small{
+  color: #fff;
+}
+.footer-text-heading-primary{
+  color: #ADB0B6;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: left;
+}
+.large-hide > li{
+  display: inline;
+}
+.large-hide{
+  padding: 0;
+  padding-left: 15px;
+}
+.footer-corps{
+  margin-top: 40px;
+  border-top: 1px solid #363A43;
+  border-bottom: 1px solid #363A43;
+  text-align: center;
+}
+.region-selector .form-group select{
+  width: 240px;
+  background: #282C35;
+  color: #D2D6DF;
+  border: .4px solid #D2D6DF;
+}
+.text-border{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.text-copyright{
+  color: #ADB0B6;
+  font-size: 15px;
+}
+/*extra small*/
+@media (min-width: 1px) and (max-width: 576px) {
+  .form-row{
+    width: 90%;
+  }
+
+  .search-event{
+    display: none;
+  }
+  div.mainImg{
+    display: none;
+  }
+  .card-group__sports{
+    display: none;
+  }
+  .background-image{
+    height: 150px;
+    width: 100%;
+  }
+  .small-hide{
+    display: none;
+  }
+  .text-copyright{
+    font-size: 12px;
+  }
+}
+
+/*sm*/
+@media (min-width: 576px) and (max-width: 768px) {
+  .search-event{
+    width: 90%;
+  }
+  .col-info, .select-box, .col-btn{
+    display: inline;
+  }
+  .col-loc{
+    display: none;
+  }
+  /*#inputEvents{
+    display: none;
+  }*/
+  h3.card-title{
+    font-size: 35px;
+  }
+/*
+  #search-loc{
+    display: inline-block;
+
+  }
+  #search-loc > h5, .col{
+    display: inline;
+  }
+
+  #search-loc > .col{
+    width: 60%;
+  }
+  */
+  .card-group__sports{
+    display: none;
+  }
+  .small-hide{
+    display: none;
+  }
+  .text-copyright{
+    font-size: 12px;
+  }
+}
+
+/*md*/
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+
+@media (min-width: 992px) {
+  h3.card-title{
+      font-size: 50px;
+  }
+  .col-info{
+    width: 240px;
+  }
+  .col-loc{
+    width: 200px;
+  }
+  .select-box{
+    width: 200px
+  }
+  .col-btn{
+    width: 150px;
+  }
+  .hide-large{
+    display: none;
+  }
+  li.hide-large{
+    padding-right: 0;
+  }
+}

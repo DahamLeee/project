@@ -1,0 +1,84 @@
+.event-content{
+  margin-top: 4em;
+  margin-bottom: 5em;
+}
+.main-title{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #666a73;
+  height: 50px;
+  border-bottom: solid .5px #666a73;
+}
+.sub-title{
+  color: #666a73;
+  font-size: 20px;
+}
+
+.detail_content{
+  margin-top: 15px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 10px #888888;
+  margin-bottom: 15px;
+}
+
+.event_details_wrapper, .event_tickets_wrapper, .event_ceategories_wrapper{
+  margin-bottom: 20px;
+}
+
+.form-create label{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #282C35
+}
+
+.event_details_wrapper .form-group, .edit_wrapper .form-group{
+  width: 70%;
+}
+
+.event_details_wrapper #starts, .event_details_wrapper #ends, .event_details_wrapper .startM, .event_details_wrapper .endM{
+  width: 35%;
+}
+label[for="startM"], label[for="endM"]{
+  display: none;
+}
+
+.event_tickets_wrapper p{
+  margin-top: 5em;
+  text-align: center;
+}
+
+.event_tickets_wrapper .button-group{
+  text-align: center;
+}
+
+.event_tickets_wrapper .form-group{
+  width: 30%;
+}
+
+.event_tickets_wrapper .ticket{
+  border: solid 2px #0278b8;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.event_tickets_wrapper .ticket i{
+  color: #0278b8;
+  font-weight: bold;
+}
+.event_tickets_wrapper .hide{
+  display: none;
+}
+
+.event_ceategories_wrapper .form-group{
+  width: 50%;
+}
+
+.event-description{
+  margin-bottom: 15px;
+}
+
+/*party show css*/
+.party_content{
+  border-bottom: solid .5px #666a73;
+}

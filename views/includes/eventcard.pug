@@ -1,0 +1,22 @@
+.card.col-sm-12.col-md-6.col-lg-4.event-card
+  .poster-card__header
+    .poster-card__image
+      img.card-img-top(src="./images/IU.jpg", alt="event")
+      span.poster-card__label= party.price
+  
+  .card-body
+    .poster-card__date= moment(party.starts).format('YYYY-MM-DD')
+    p.poster-card__title= party.title
+    .poster-card__venue= party.location
+      
+  .poster-card__footer
+    .poster-card__tags
+      a.event-category(href="#") #
+        = party.type
+      a.event-format(href="#") #
+        = party.topic
+    .poster-card__actions
+      a.share-action(href="#")
+        i.fa.fa-share(aria-hidden="true")
+      a.bookmark(href="#")
+        i.fa.fa-bookmark-o(aria-hidden="true")
