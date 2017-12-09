@@ -80,6 +80,14 @@ ul li:hover .dropdown-menu{
   width: 150px;
 }
 
+.see-more{
+  text-align: center;
+}
+
+.btn__secondary{
+  width: 20%;
+}
+
 /*category*/
 .category{
   margin-bottom: 15px;
